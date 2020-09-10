@@ -2,7 +2,7 @@
 Comparar o desempenho de diferentes linguagens, executando o mesmo algoritmo.
 Resultado do arquivo gerado pelo perf, utilizando os eventos: cpu-clock, cache-misses, cpu-cycles e instructions.
 
-# started on Thu Sep 10 14:44:42 2020
+# Programa em Python - executado pelo python 2.7.17 no Linux
 
 
  Performance counter stats for './teste.py':
@@ -18,7 +18,7 @@ Resultado do arquivo gerado pelo perf, utilizando os eventos: cpu-clock, cache-m
        0,171946000 seconds sys
 
 
-# started on Thu Sep 10 14:50:35 2020
+# Programa em Javascript - executado pelo node 8.10.0 no Linux
 
 
  Performance counter stats for './teste.js':
@@ -34,7 +34,7 @@ Resultado do arquivo gerado pelo perf, utilizando os eventos: cpu-clock, cache-m
        0,008005000 seconds sys
 
 
-# started on Thu Sep 10 14:50:57 2020
+# Programa em C - executado pelo gcc 7.5.0 no Linux
 
 
  Performance counter stats for './a.out':
@@ -50,7 +50,7 @@ Resultado do arquivo gerado pelo perf, utilizando os eventos: cpu-clock, cache-m
        0,000000000 seconds sys
 
 
-# started on Thu Sep 10 14:51:06 2020
+# Progama em Java - executado pelo OpenJDK 8
 
 
  Performance counter stats for './testeJava.sh':
