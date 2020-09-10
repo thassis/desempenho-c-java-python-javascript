@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import sys
-#perf stat -o novo.txt --append -B -r 1 -e cpu-clock:uk,cache-misses,cpu-cycles,instructions ./teste.js
+#perf stat -o novo.txt --append -B -r 1 -e cpu-clock:uk,cache-misses,cpu-cycles,instructions ./teste.py
 caracteres = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','0','1','2','3','4','5','6','7','8','9']
 password = ['t','h','i','a','g','o']
 is_password = ['0','0','0','0','0','0']

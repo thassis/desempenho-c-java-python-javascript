@@ -1,6 +1,9 @@
 public class Teste{
-    // jar cfm Teste.jar Manifest.txt Teste.class
-    // java -jar Teste.jar 
+    /*
+        javac Teste.java
+        jar cfm Teste.jar Manifest.txt Teste.class
+        perf stat -o novo.txt --append -B -r 1 -e cpu-clock:uk,cache-misses,cpu-cycles,instructions ./testeJava.sh
+    */
     public static void main(String[] args){
         char caracteres[] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','0','1','2','3','4','5','6','7','8','9'};
         char password[] = {'t','h','i','a','g','o'};
