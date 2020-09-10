@@ -8,9 +8,9 @@ Resultado do arquivo gerado pelo perf, utilizando os eventos: cpu-clock, cache-m
  Performance counter stats for './teste.py':
 
         244.848,99 msec cpu-clock:uk              #    0,999 CPUs utilized          
-        80.737.700      cache-misses                                                
-   581.990.248.188      cpu-cycles                #    2,377 GHz                    
- 1.814.652.345.830      instructions              #    3,12  insn per cycle         
+        80.737.700      cache-misses
+    581.990.248.188      cpu-cycles                #    2,377 GHz                    
+    1.814.652.345.830      instructions              #    3,12  insn per cycle         
 
      245,147866674 seconds time elapsed
 
